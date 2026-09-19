@@ -1,0 +1,336 @@
+<resources>
+    <string name="app_name">MERCURY Business Manager</string>
+
+    <!-- Navigation -->
+    <string name="nav_dashboard">Dashboard</string>
+    <string name="nav_products">Products</string>
+    <string name="nav_pos">POS / Sales</string>
+    <string name="nav_sales">Sales History</string>
+    <string name="nav_purchases">Purchases</string>
+    <string name="nav_customers">Customers</string>
+    <string name="nav_suppliers">Suppliers</string>
+    <string name="nav_expenses">Expenses</string>
+    <string name="nav_invoices">Invoices</string>
+    <string name="nav_reports">Reports</string>
+    <string name="nav_backup">Backup &amp; Restore</string>
+    <string name="nav_settings">Settings</string>
+    <string name="nav_more">More</string>
+    <string name="drawer_tagline">Business Manager</string>
+    <string name="drawer_default_store">Offline-first Store</string>
+    <string name="nav_open_menu">Open Navigation Menu</string>
+
+    <!-- General Actions -->
+    <string name="action_save">Save</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_edit">Edit</string>
+    <string name="action_add">Add</string>
+    <string name="action_search">Search</string>
+    <string name="action_filter">Filter</string>
+    <string name="action_clear">Clear</string>
+    <string name="action_close">Close</string>
+    <string name="action_confirm">Confirm</string>
+    <string name="action_checkout">Checkout</string>
+    <string name="action_share">Share PDF</string>
+    <string name="action_print">Print</string>
+    <string name="action_export_json">Export JSON</string>
+    <string name="action_restore_json">Restore JSON</string>
+    <string name="action_export_csv">Export CSV</string>
+    <string name="action_import_csv">Import CSV</string>
+    <string name="action_adjust_stock">Adjust Stock</string>
+    <string name="action_ok">OK</string>
+    <string name="action_view_all">View All</string>
+    <string name="filter_all">All</string>
+    <string name="error_generic">Error</string>
+
+    <!-- Dashboard -->
+    <string name="dashboard_today_sales">Today\'s Sales</string>
+    <string name="dashboard_today_purchases">Today\'s Purchases</string>
+    <string name="dashboard_today_expenses">Today\'s Expenses</string>
+    <string name="dashboard_today_profit">Today\'s Est. Profit</string>
+    <string name="dashboard_monthly_overview">Monthly Financial Overview</string>
+    <string name="dashboard_monthly_revenue">Monthly Revenue</string>
+    <string name="dashboard_monthly_expenses">Monthly Expenses</string>
+    <string name="dashboard_monthly_net_profit">Estimated Net Profit</string>
+    <string name="dashboard_balances_inventory">Balances &amp; Inventory</string>
+    <string name="dashboard_inventory_value">Inventory Cost Value</string>
+    <string name="dashboard_customer_receivables">Customer Receivables</string>
+    <string name="dashboard_owed_by_customers">Owed by customers</string>
+    <string name="dashboard_supplier_payables">Supplier Payables</string>
+    <string name="dashboard_owed_to_suppliers">Owed to suppliers</string>
+    <string name="dashboard_low_stock_alerts">Low Stock Alerts</string>
+    <string name="dashboard_low_stock_alert">Low Stock Items</string>
+    <string name="dashboard_quick_pos">New Sale (POS)</string>
+    <string name="dashboard_quick_product">Add Product</string>
+    <string name="dashboard_quick_purchase">New Purchase</string>
+    <string name="dashboard_quick_expense">Add Expense</string>
+
+    <!-- Products & Inventory -->
+    <string name="product_name">Product Name</string>
+    <string name="product_name_required">Product Name *</string>
+    <string name="product_sku">SKU</string>
+    <string name="product_barcode">Barcode</string>
+    <string name="product_category">Category</string>
+    <string name="product_purchase_price">Cost Price</string>
+    <string name="product_cost_price">Cost Price</string>
+    <string name="product_selling_price">Selling Price</string>
+    <string name="product_stock">Current Stock</string>
+    <string name="product_stock_qty">Stock Quantity</string>
+    <string name="product_min_stock">Minimum Stock Alert</string>
+    <string name="product_min_alert">Min Alert</string>
+    <string name="product_unit">Unit</string>
+    <string name="product_unit_hint">Unit (pcs, kg, box...)</string>
+    <string name="product_notes">Notes</string>
+    <string name="product_notes_optional">Notes (optional)</string>
+    <string name="product_add_title">Add Product</string>
+    <string name="product_edit_title">Edit Product</string>
+    <string name="product_detail_title">Product Details</string>
+    <string name="product_search_hint">Search by name, SKU, or barcode...</string>
+    <string name="product_filter_all">All</string>
+    <string name="product_low_stock">Low Stock</string>
+    <string name="product_out_of_stock">Out of Stock</string>
+    <string name="product_in_stock">In Stock</string>
+    <string name="product_stock_history">Stock Movement History</string>
+    <string name="product_adjust_title">Adjust Inventory Stock</string>
+    <string name="product_adjust_named">Adjust Stock: %s</string>
+    <string name="product_current_stock_label">Current Stock: %1$s %2$s</string>
+    <string name="product_new_stock_qty">New Stock Quantity</string>
+    <string name="product_adjust_reason">Reason for Adjustment</string>
+    <string name="product_confirm_adjustment">Confirm Adjustment</string>
+    <string name="product_movements_title">Stock Movements: %s</string>
+    <string name="product_loading_movements">Loading movement history...</string>
+    <string name="product_no_movements">No recorded stock movements for this item yet.</string>
+    <string name="product_movement_balance">Stock: %1$s → %2$s</string>
+    <string name="product_movement_note">Note: %s</string>
+
+    <!-- Sales & POS -->
+    <string name="pos_cart">Cart</string>
+    <string name="pos_clear_cart">Clear Cart</string>
+    <string name="pos_search_product">Search product to add...</string>
+    <string name="pos_customer">Customer</string>
+    <string name="pos_select_customer">Select Customer</string>
+    <string name="pos_walk_in_customer">Walk-in Customer (General)</string>
+    <string name="pos_subtotal">Subtotal</string>
+    <string name="pos_discount">Discount</string>
+    <string name="pos_tax">Tax</string>
+    <string name="pos_total">Total</string>
+    <string name="pos_charge_btn">Charge %s</string>
+    <string name="pos_checkout_title">Payment Checkout</string>
+    <string name="pos_total_due">Total Due:</string>
+    <string name="pos_amount_paid">Amount Paid</string>
+    <string name="pos_balance">Balance Due</string>
+    <string name="pos_pay_exact">Exact</string>
+    <string name="pos_pay_credit">Credit</string>
+    <string name="pos_change_due">Change to Return:</string>
+    <string name="pos_remaining_due">Remaining Balance:</string>
+    <string name="pos_confirm_print">Confirm &amp; Print</string>
+    <string name="pos_payment_method">Payment Method</string>
+    <string name="pos_empty_cart">No items in cart. Tap products to add.</string>
+    <string name="pos_complete_button">Charge</string>
+    <string name="sale_history_title">Sales History</string>
+    <string name="sale_item_number">Sale #%s</string>
+    <string name="error_transaction">Transaction Error</string>
+
+    <!-- Purchases -->
+    <string name="purchases_tab_new">New Purchase</string>
+    <string name="purchases_tab_history">History (%d)</string>
+    <string name="purchases_select_supplier">Select Supplier</string>
+    <string name="purchases_direct_supplier">Direct Supplier (Cash / General)</string>
+    <string name="purchases_search_product">Search product to stock...</string>
+    <string name="purchases_empty_title">No Items in Purchase Order</string>
+    <string name="purchases_empty_desc">Tap on products above to add incoming stock items.</string>
+    <string name="purchases_cost_each">Cost: %s each</string>
+    <string name="purchases_complete_title">Complete Purchase Order</string>
+    <string name="purchases_supplier_label">Supplier: %s</string>
+    <string name="purchases_total_amount">Total Amount: %s</string>
+    <string name="purchases_invoice_no">Supplier Invoice / PO #</string>
+    <string name="purchases_confirm_stock_in">Confirm Stock In</string>
+    <string name="purchases_stock_current">Current: %1$s %2$s</string>
+    <string name="purchases_total_cost">Total Purchase Cost</string>
+    <string name="purchases_record_btn">Record Purchase</string>
+    <string name="purchases_no_records_title">No Purchase Records</string>
+    <string name="purchases_no_records_desc">When you purchase stock from suppliers, purchase receipts will appear here.</string>
+    <string name="purchases_payable_label">Payable: %s</string>
+    <string name="pos_paid_label">Paid: %s</string>
+    <string name="pos_due_label">Due: %s</string>
+
+    <!-- Invoices -->
+    <string name="invoices_search_hint">Search by invoice # or customer...</string>
+    <string name="invoices_loading_items">Loading items...</string>
+    <string name="invoices_grand_total">Grand Total:</string>
+    <string name="invoices_balance_due">Balance Due:</string>
+    <string name="invoices_customer_label">Customer: %s</string>
+    <string name="invoices_phone_label">Phone: %s</string>
+    <string name="invoices_date_label">Date: %s</string>
+    <string name="invoices_total_label">Total: %s</string>
+    <string name="invoices_paid_label">Paid: %s</string>
+    <string name="invoices_due_label">Due: %s</string>
+    <string name="invoices_empty_title">No Invoices Found</string>
+    <string name="invoices_empty_desc">Invoices are automatically generated whenever you complete a sale in the POS module.</string>
+    <string name="invoices_no_match_desc">No invoices match the selected filter.</string>
+    <string name="invoices_share_pdf">Share PDF</string>
+    <string name="invoices_print">Print</string>
+    <string name="invoice_item_title">Invoice #%s</string>
+
+    <!-- Statuses -->
+    <string name="status_paid">Paid</string>
+    <string name="status_partially_paid">Partial</string>
+    <string name="status_unpaid">Unpaid</string>
+
+    <!-- Customers & Suppliers -->
+    <string name="contacts_tab_customers">Customers (%s)</string>
+    <string name="contacts_tab_suppliers">Suppliers (%s)</string>
+    <string name="contacts_search_hint">Search by name or phone...</string>
+    <string name="contacts_receivable_label">Receivable: %s</string>
+    <string name="contacts_payable_label">Payable: %s</string>
+    <string name="contacts_edit_title">Edit Contact</string>
+    <string name="customer_name">Customer Name</string>
+    <string name="supplier_name">Supplier Name</string>
+    <string name="contact_phone">Phone</string>
+    <string name="contact_email">Email</string>
+    <string name="contact_address">Address</string>
+    <string name="contact_balance">Balance</string>
+    <string name="customer_add_title">Add Customer</string>
+    <string name="supplier_add_title">Add Supplier</string>
+
+    <string name="customers_search_hint">Search customers by name or phone...</string>
+    <string name="customers_empty_title">No Customers Found</string>
+    <string name="customers_empty_desc">You haven\'t added any customers yet.</string>
+    <string name="customers_no_match_desc">No customers match your search.</string>
+    <string name="customers_add_action">Add Customer</string>
+    <string name="customers_due_label">Due: %s</string>
+    <string name="customer_edit_title">Edit Customer</string>
+    <string name="customer_new_title">New Customer</string>
+    <string name="customer_name_required">Customer Name *</string>
+    <string name="customer_name_error">Name is required.</string>
+    <string name="customer_notes_optional">Notes (optional)</string>
+    <string name="customer_delete_title">Delete Customer</string>
+    <string name="customer_delete_message">Are you sure you want to delete \'%s\'?</string>
+
+    <string name="suppliers_search_hint">Search suppliers by name or contact...</string>
+    <string name="suppliers_empty_title">No Suppliers Found</string>
+    <string name="suppliers_empty_desc">You have not added any suppliers yet.</string>
+    <string name="suppliers_no_match_desc">No suppliers match your search.</string>
+    <string name="suppliers_add_action">Add Supplier</string>
+    <string name="suppliers_payable_label">Payable: %s</string>
+    <string name="supplier_edit_title">Edit Supplier</string>
+    <string name="supplier_name_required">Supplier Name *</string>
+    <string name="supplier_delete_title">Delete Supplier</string>
+    <string name="supplier_delete_message">Are you sure you want to delete \'%s\'?</string>
+
+    <!-- Expenses -->
+    <string name="expenses_total_recorded">Total Recorded Expenses</string>
+    <string name="expenses_items_count">%d items</string>
+    <string name="expenses_payment_method">Method: %s</string>
+    <string name="expenses_category_label">Category:</string>
+    <string name="expense_category">Expense Category</string>
+    <string name="expense_amount">Amount</string>
+    <string name="expense_amount_required">Amount (%s) *</string>
+    <string name="expense_ref_number">Receipt / Ref Number</string>
+    <string name="expense_date">Date</string>
+    <string name="expense_notes_desc">Notes / Description</string>
+    <string name="expense_add_title">Record Expense</string>
+    <string name="expense_edit_title">Edit Expense</string>
+    <string name="expenses_empty_title">No Expenses Logged</string>
+    <string name="expenses_empty_desc">Keep track of rent, bills, supplies, and other operational costs here.</string>
+    <string name="expenses_no_category_desc">No expenses under \'%s\'.</string>
+    <string name="expense_amount_error">Amount must be greater than 0.</string>
+    <string name="expense_delete_title">Delete Expense</string>
+    <string name="expense_delete_message">Are you sure you want to delete this expense of %s?</string>
+
+    <string name="expense_cat_all">All</string>
+    <string name="expense_cat_rent">Rent</string>
+    <string name="expense_cat_utilities">Utilities</string>
+    <string name="expense_cat_salaries">Salaries</string>
+    <string name="expense_cat_supplies">Supplies</string>
+    <string name="expense_cat_maintenance">Maintenance</string>
+    <string name="expense_cat_shipping">Shipping</string>
+    <string name="expense_cat_marketing">Marketing</string>
+    <string name="expense_cat_other">Other</string>
+
+    <!-- Reports -->
+    <string name="reports_timeframe_today">Today</string>
+    <string name="reports_timeframe_7_days">7 Days</string>
+    <string name="reports_timeframe_this_month">This Month</string>
+    <string name="reports_timeframe_all_time">All Time</string>
+    <string name="reports_pl_statement">Profit &amp; Loss Statement</string>
+    <string name="reports_gross_revenue">Gross Sales Revenue</string>
+    <string name="reports_cogs">Cost of Goods Sold (COGS)</string>
+    <string name="reports_gross_profit">Gross Profit</string>
+    <string name="reports_operating_expenses">Total Operating Expenses</string>
+    <string name="reports_net_profit">Net Operational Profit</string>
+    <string name="reports_orders_count">Orders Count / Avg Ticket</string>
+    <string name="reports_orders_summary">%1$s sales | Avg: %2$s</string>
+    <string name="reports_inventory_valuation">Inventory Valuation &amp; Margins</string>
+    <string name="reports_total_inventory_cost">Total Inventory Cost</string>
+    <string name="reports_expected_retail">Expected Retail Value</string>
+    <string name="reports_projected_margin">Projected Gross Margin</string>
+    <string name="reports_debt_position">Outstanding Debt Position</string>
+    <string name="reports_receivables_customers">Receivables (Customers)</string>
+    <string name="reports_payables_suppliers">Payables (Suppliers)</string>
+
+    <!-- Backup & Restore -->
+    <string name="backup_full_title">Full System Backup &amp; Restore</string>
+    <string name="backup_full_desc">Create a complete snapshot of all products, sales, purchases, contacts, and settings in standard JSON format.</string>
+    <string name="backup_export_json_btn">Export Full JSON Backup</string>
+    <string name="backup_restore_json_btn">Restore From JSON Backup</string>
+    <string name="backup_csv_title">CSV Data Import &amp; Export</string>
+    <string name="backup_csv_desc">Export spreadsheets to open in Excel or Google Sheets, or bulk import your product catalog.</string>
+    <string name="backup_export_products">Export Products CSV</string>
+    <string name="backup_import_products">Import Products CSV</string>
+    <string name="backup_export_customers">Export Customers CSV</string>
+    <string name="backup_export_suppliers">Export Suppliers CSV</string>
+    <string name="backup_export_expenses">Export Expenses CSV</string>
+    <string name="backup_dialog_title">Backup &amp; Export</string>
+    <string name="backup_success_json_export">Full JSON backup saved successfully!</string>
+    <string name="backup_success_json_restore">Database restored successfully!</string>
+    <string name="backup_success_products_csv_export">Products CSV exported successfully!</string>
+    <string name="backup_success_customers_csv_export">Customers CSV exported successfully!</string>
+    <string name="backup_success_suppliers_csv_export">Suppliers CSV exported successfully!</string>
+    <string name="backup_success_expenses_csv_export">Expenses CSV exported successfully!</string>
+    <string name="backup_success_products_import">Imported %d products successfully!</string>
+    <string name="backup_error_export">Export failed: %s</string>
+    <string name="backup_error_restore">Restore failed: %s</string>
+    <string name="backup_error_import">Import failed: %s</string>
+
+    <!-- Common Dialogs -->
+    <string name="dialog_delete_title">Confirm Delete</string>
+    <string name="dialog_delete_message">Are you sure you want to delete this item? This action cannot be undone.</string>
+
+    <!-- Settings -->
+    <string name="settings_business_profile">Business Profile &amp; Invoicing</string>
+    <string name="settings_business_profile_desc">This information appears on your printed and shared PDF invoices.</string>
+    <string name="settings_business_name">Business / Store Name *</string>
+    <string name="settings_owner_name">Owner / Manager Name</string>
+    <string name="settings_currency">Currency (USD, EUR, SAR...)</string>
+    <string name="settings_tax_rate">Default Tax Rate (%)</string>
+    <string name="settings_invoice_prefix">Invoice Prefix</string>
+    <string name="settings_tax_number">Tax Registration No</string>
+    <string name="settings_save_profile">Save Profile Changes</string>
+    <string name="settings_inventory_policy">Inventory &amp; Operational Policies</string>
+    <string name="settings_allow_negative_stock">Allow Negative Stock</string>
+    <string name="settings_allow_negative_desc">When enabled, sales can be completed even if recorded inventory is 0 or less.</string>
+    <string name="settings_appearance">Appearance &amp; Language</string>
+    <string name="settings_theme_mode">Theme Mode</string>
+    <string name="settings_theme_system">System</string>
+    <string name="settings_theme_light">Light</string>
+    <string name="settings_theme_dark">Dark</string>
+    <string name="settings_language">Language</string>
+    <string name="settings_language_title">App Language</string>
+    <string name="settings_language_desc">Switch between English and Arabic. The layout and interface adapt immediately.</string>
+    <string name="settings_lang_en">English</string>
+    <string name="settings_lang_en_sub">LTR layout direction</string>
+    <string name="settings_lang_ar">العربية</string>
+    <string name="settings_lang_ar_sub">اتجاه الواجهة من اليمين لليسار (RTL)</string>
+    <string name="settings_lang_active">Active</string>
+    <string name="settings_lang_saved_toast">Language updated to %s</string>
+    <string name="settings_about_title">About MERCURY</string>
+    <string name="settings_app_tagline">Smart &amp; Offline-First POS and Business Management</string>
+    <string name="settings_app_version">Version 1.0.0 • All data stored locally</string>
+    <string name="settings_brand_identity_title">Brand Identity &amp; Logo</string>
+    <string name="settings_brand_variant_icon_dark">Icon (Dark)</string>
+    <string name="settings_brand_variant_icon_light">Icon (Light)</string>
+    <string name="settings_brand_variant_logo_dark">Wordmark (Dark)</string>
+    <string name="settings_brand_variant_logo_light">Wordmark (Light)</string>
+    <string name="settings_brand_concept">Speed, Flow, Intelligence &amp; Adaptability</string>
+</resources>

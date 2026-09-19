@@ -1,0 +1,6 @@
+{
+  "name": "MERCURY Business Manager",
+  "description": "Offline-first business management system for small businesses, shops, workshops, distributors, freelancers and merchants.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

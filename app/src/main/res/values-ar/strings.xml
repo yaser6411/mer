@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MERCURY - مدير الأعمال</string>
+
+    <!-- Navigation -->
+    <string name="nav_dashboard">لوحة التحكم</string>
+    <string name="nav_products">المنتجات</string>
+    <string name="nav_pos">نقطة البيع</string>
+    <string name="nav_sales">سجل المبيعات</string>
+    <string name="nav_purchases">المشتريات</string>
+    <string name="nav_customers">العملاء</string>
+    <string name="nav_suppliers">الموردون</string>
+    <string name="nav_expenses">المصروفات</string>
+    <string name="nav_invoices">الفواتير</string>
+    <string name="nav_reports">التقارير</string>
+    <string name="nav_backup">النسخ الاحتياطي والاستعادة</string>
+    <string name="nav_settings">الإعدادات</string>
+    <string name="nav_more">المزيد</string>
+    <string name="drawer_tagline">مدير الأعمال والفوترة</string>
+    <string name="drawer_default_store">متجر بدون إنترنت</string>
+    <string name="nav_open_menu">فتح القائمة</string>
+
+    <!-- General Actions -->
+    <string name="action_save">حفظ</string>
+    <string name="action_cancel">إلغاء</string>
+    <string name="action_delete">حذف</string>
+    <string name="action_edit">تعديل</string>
+    <string name="action_add">إضافة</string>
+    <string name="action_search">بحث</string>
+    <string name="action_filter">تصفية</string>
+    <string name="action_clear">مسح</string>
+    <string name="action_close">إغلاق</string>
+    <string name="action_confirm">تأكيد</string>
+    <string name="action_checkout">إتمام البيع</string>
+    <string name="action_share">مشاركة PDF</string>
+    <string name="action_print">طباعة</string>
+    <string name="action_export_json">تصدير JSON</string>
+    <string name="action_restore_json">استرجاع JSON</string>
+    <string name="action_export_csv">تصدير CSV</string>
+    <string name="action_import_csv">استيراد CSV</string>
+    <string name="action_adjust_stock">تعديل المخزون</string>
+    <string name="action_ok">موافق</string>
+    <string name="action_view_all">عرض الكل</string>
+    <string name="filter_all">الكل</string>
+    <string name="error_generic">خطأ</string>
+
+    <!-- Dashboard -->
+    <string name="dashboard_today_sales">مبيعات اليوم</string>
+    <string name="dashboard_today_purchases">مشتريات اليوم</string>
+    <string name="dashboard_today_expenses">مصروفات اليوم</string>
+    <string name="dashboard_today_profit">صافي ربح اليوم التقديري</string>
+    <string name="dashboard_monthly_overview">نظرة عامة على مالية الشهر</string>
+    <string name="dashboard_monthly_revenue">إيرادات الشهر</string>
+    <string name="dashboard_monthly_expenses">مصروفات الشهر</string>
+    <string name="dashboard_monthly_net_profit">صافي الربح التقديري</string>
+    <string name="dashboard_balances_inventory">الأرصدة والمخزون</string>
+    <string name="dashboard_inventory_value">قيمة تكلفة المخزون</string>
+    <string name="dashboard_customer_receivables">مستحقات على العملاء</string>
+    <string name="dashboard_owed_by_customers">مستحقات على العملاء</string>
+    <string name="dashboard_supplier_payables">مستحقات للموردين</string>
+    <string name="dashboard_owed_to_suppliers">مستحقات للموردين</string>
+    <string name="dashboard_low_stock_alerts">تنبيهات نقص المخزون</string>
+    <string name="dashboard_low_stock_alert">منتجات قريبة من النفاد</string>
+    <string name="dashboard_quick_pos">فاتورة بيع جديدة</string>
+    <string name="dashboard_quick_product">إضافة منتج</string>
+    <string name="dashboard_quick_purchase">شراء بضاعة</string>
+    <string name="dashboard_quick_expense">تسجيل مصروف</string>
+
+    <!-- Products & Inventory -->
+    <string name="product_name">اسم المنتج</string>
+    <string name="product_name_required">اسم المنتج *</string>
+    <string name="product_sku">رمز المنتج (SKU)</string>
+    <string name="product_barcode">الباركود</string>
+    <string name="product_category">التصنيف</string>
+    <string name="product_purchase_price">سعر التكلفة</string>
+    <string name="product_cost_price">سعر التكلفة</string>
+    <string name="product_selling_price">سعر البيع</string>
+    <string name="product_stock">الكمية الحالية</string>
+    <string name="product_stock_qty">الكمية في المخزون</string>
+    <string name="product_min_stock">تنبيه الحد الأدنى</string>
+    <string name="product_min_alert">حد التنبيه</string>
+    <string name="product_unit">الوحدة</string>
+    <string name="product_unit_hint">الوحدة (قطعة، كجم، كرتون...)</string>
+    <string name="product_notes">ملاحظات</string>
+    <string name="product_notes_optional">ملاحظات (اختياري)</string>
+    <string name="product_add_title">إضافة منتج جديد</string>
+    <string name="product_edit_title">تعديل المنتج</string>
+    <string name="product_detail_title">تفاصيل المنتج</string>
+    <string name="product_search_hint">بحث بالاسم، رمز المنتج، أو الباركود...</string>
+    <string name="product_filter_all">الكل</string>
+    <string name="product_low_stock">مخزون منخفض</string>
+    <string name="product_out_of_stock">نفد المخزون</string>
+    <string name="product_in_stock">متوفر</string>
+    <string name="product_stock_history">سجل حركات المخزون</string>
+    <string name="product_adjust_title">تسوية كمية المخزون</string>
+    <string name="product_adjust_named">تسوية مخزون: %s</string>
+    <string name="product_current_stock_label">المخزون الحالي: %1$s %2$s</string>
+    <string name="product_new_stock_qty">كمية المخزون الجديدة</string>
+    <string name="product_adjust_reason">سبب التسوية</string>
+    <string name="product_confirm_adjustment">تأكيد تسوية المخزون</string>
+    <string name="product_movements_title">حركات مخزون: %s</string>
+    <string name="product_loading_movements">جاري تحميل سجل حركات المخزون...</string>
+    <string name="product_no_movements">لا توجد حركات مسجلة لهذا المنتج حتى الآن.</string>
+    <string name="product_movement_balance">الكمية: %1$s ← %2$s</string>
+    <string name="product_movement_note">ملاحظة: %s</string>
+
+    <!-- Sales & POS -->
+    <string name="pos_cart">سلة المبيعات</string>
+    <string name="pos_clear_cart">تفريغ السلة</string>
+    <string name="pos_search_product">بحث عن منتج للإضافة...</string>
+    <string name="pos_customer">العميل</string>
+    <string name="pos_select_customer">تحديد العميل</string>
+    <string name="pos_walk_in_customer">عميل نقدي عام</string>
+    <string name="pos_subtotal">المجموع الفرعي</string>
+    <string name="pos_discount">الخصم</string>
+    <string name="pos_tax">الضريبة</string>
+    <string name="pos_total">الإجمالي النهائي</string>
+    <string name="pos_charge_btn">تحصيل %s</string>
+    <string name="pos_checkout_title">الدفع والتحصيل</string>
+    <string name="pos_total_due">المبلغ المستحق:</string>
+    <string name="pos_amount_paid">المبلغ المدفوع</string>
+    <string name="pos_balance">المتبقي</string>
+    <string name="pos_pay_exact">المبلغ كاملاً</string>
+    <string name="pos_pay_credit">آجل (دين)</string>
+    <string name="pos_change_due">المتبقي للعميل:</string>
+    <string name="pos_remaining_due">المتبقي بذمة العميل:</string>
+    <string name="pos_confirm_print">تأكيد وطباعة</string>
+    <string name="pos_payment_method">طريقة الدفع</string>
+    <string name="pos_empty_cart">السلة فارغة. اضغط على أي منتج لإضافته.</string>
+    <string name="pos_complete_button">تحصيل</string>
+    <string name="sale_history_title">سجل المبيعات</string>
+    <string name="sale_item_number">عملية بيع رقم %s</string>
+    <string name="error_transaction">خطأ في العملية</string>
+
+    <!-- Purchases -->
+    <string name="purchases_tab_new">فاتورة شراء جديدة</string>
+    <string name="purchases_tab_history">سجل المشتريات (%d)</string>
+    <string name="purchases_select_supplier">تحديد المورد</string>
+    <string name="purchases_direct_supplier">مورد نقدي مباشر</string>
+    <string name="purchases_search_product">بحث عن منتج للتوريد...</string>
+    <string name="purchases_empty_title">لا توجد عناصر في أمر الشراء</string>
+    <string name="purchases_empty_desc">اضغط على المنتجات أعلاه لإضافتها إلى شحنة التوريد.</string>
+    <string name="purchases_cost_each">التكلفة: %s للوحدة</string>
+    <string name="purchases_complete_title">إتمام فاتورة المشتريات</string>
+    <string name="purchases_supplier_label">المورد: %s</string>
+    <string name="purchases_total_amount">إجمالي المبلغ: %s</string>
+    <string name="purchases_invoice_no">رقم فاتورة المورد / أمر الشراء</string>
+    <string name="purchases_confirm_stock_in">تأكيد استلام البضاعة للمخزون</string>
+    <string name="purchases_stock_current">الحالي: %1$s %2$s</string>
+    <string name="purchases_total_cost">إجمالي تكلفة المشتريات</string>
+    <string name="purchases_record_btn">تسجيل فاتورة الشراء</string>
+    <string name="purchases_no_records_title">لا توجد سجلات مشتريات</string>
+    <string name="purchases_no_records_desc">عند شراء بضاعة من الموردين ستظهر إيصالات المشتريات هنا.</string>
+    <string name="purchases_payable_label">مستحق للمورد: %s</string>
+    <string name="pos_paid_label">المدفوع: %s</string>
+    <string name="pos_due_label">المتبقي: %s</string>
+
+    <!-- Invoices -->
+    <string name="invoices_search_hint">بحث برقم الفاتورة أو اسم العميل...</string>
+    <string name="invoices_loading_items">جاري تحميل تفاصيل الفاتورة...</string>
+    <string name="invoices_grand_total">الإجمالي النهائي:</string>
+    <string name="invoices_balance_due">المتبقي:</string>
+    <string name="invoices_customer_label">العميل: %s</string>
+    <string name="invoices_phone_label">الهاتف: %s</string>
+    <string name="invoices_date_label">التاريخ: %s</string>
+    <string name="invoices_total_label">الإجمالي: %s</string>
+    <string name="invoices_paid_label">المدفوع: %s</string>
+    <string name="invoices_due_label">المتبقي: %s</string>
+    <string name="invoices_empty_title">لا توجد فواتير</string>
+    <string name="invoices_empty_desc">يتم إنشاء الفواتير تلقائياً فور إتمام أي عملية بيع في نقطة البيع.</string>
+    <string name="invoices_no_match_desc">لا توجد فواتير مطابقة لخيارات التصفية المحددة.</string>
+    <string name="invoices_share_pdf">مشاركة PDF</string>
+    <string name="invoices_print">طباعة</string>
+    <string name="invoice_item_title">فاتورة رقم %s</string>
+
+    <!-- Statuses -->
+    <string name="status_paid">مدفوع</string>
+    <string name="status_partially_paid">مدفوع جزئياً</string>
+    <string name="status_unpaid">غير مدفوع</string>
+
+    <!-- Customers & Suppliers -->
+    <string name="contacts_tab_customers">العملاء (%s)</string>
+    <string name="contacts_tab_suppliers">الموردون (%s)</string>
+    <string name="contacts_search_hint">بحث بالاسم أو رقم الهاتف...</string>
+    <string name="contacts_receivable_label">مستحق على العميل: %s</string>
+    <string name="contacts_payable_label">مستحق للمورد: %s</string>
+    <string name="contacts_edit_title">تعديل جهة الاتصال</string>
+    <string name="customer_name">اسم العميل</string>
+    <string name="supplier_name">اسم المورد</string>
+    <string name="contact_phone">رقم الهاتف</string>
+    <string name="contact_email">البريد الإلكتروني</string>
+    <string name="contact_address">العنوان</string>
+    <string name="contact_balance">الرصيد</string>
+    <string name="customer_add_title">إضافة عميل جديد</string>
+    <string name="supplier_add_title">إضافة مورد جديد</string>
+
+    <string name="customers_search_hint">البحث عن عميل بالاسم أو الهاتف...</string>
+    <string name="customers_empty_title">لا يوجد عملاء</string>
+    <string name="customers_empty_desc">لم تقم بإضافة أي عملاء بعد.</string>
+    <string name="customers_no_match_desc">لا يوجد عميل يطابق بحثك.</string>
+    <string name="customers_add_action">إضافة عميل</string>
+    <string name="customers_due_label">مستحق: %s</string>
+    <string name="customer_edit_title">تعديل بيانات العميل</string>
+    <string name="customer_new_title">عميل جديد</string>
+    <string name="customer_name_required">اسم العميل *</string>
+    <string name="customer_name_error">اسم العميل مطلوب.</string>
+    <string name="customer_notes_optional">ملاحظات (اختياري)</string>
+    <string name="customer_delete_title">حذف العميل</string>
+    <string name="customer_delete_message">هل أنت متأكد من رغبتك في حذف العميل \'%s\'؟</string>
+
+    <string name="suppliers_search_hint">البحث عن مورد بالاسم أو الهاتف...</string>
+    <string name="suppliers_empty_title">لا يوجد موردين</string>
+    <string name="suppliers_empty_desc">لم تقم بإضافة أي موردين بعد.</string>
+    <string name="suppliers_no_match_desc">لا يوجد مورد يطابق بحثك.</string>
+    <string name="suppliers_add_action">إضافة مورد</string>
+    <string name="suppliers_payable_label">مستحق للمورد: %s</string>
+    <string name="supplier_edit_title">تعديل بيانات المورد</string>
+    <string name="supplier_name_required">اسم المورد *</string>
+    <string name="supplier_delete_title">حذف المورد</string>
+    <string name="supplier_delete_message">هل أنت متأكد من رغبتك في حذف المورد \'%s\'؟</string>
+
+    <!-- Expenses -->
+    <string name="expenses_total_recorded">إجمالي المصروفات المسجلة</string>
+    <string name="expenses_items_count">%d بنود</string>
+    <string name="expenses_payment_method">طريقة الدفع: %s</string>
+    <string name="expenses_category_label">التصنيف:</string>
+    <string name="expense_category">بند المصروف</string>
+    <string name="expense_amount">المبلغ</string>
+    <string name="expense_amount_required">المبلغ (%s) *</string>
+    <string name="expense_ref_number">رقم الإيصال / المرجع</string>
+    <string name="expense_date">التاريخ</string>
+    <string name="expense_notes_desc">البيان / الوصف</string>
+    <string name="expense_add_title">تسجيل مصروف جديد</string>
+    <string name="expense_edit_title">تعديل المصروف</string>
+    <string name="expenses_empty_title">لا توجد مصروفات مسجلة</string>
+    <string name="expenses_empty_desc">تتبع الإيجارات والفواتير والمستلزمات والتكاليف التشغيلية هنا.</string>
+    <string name="expenses_no_category_desc">لا توجد مصروفات تحت تصنيف \'%s\'.</string>
+    <string name="expense_amount_error">يجب أن يكون المبلغ أكبر من 0.</string>
+    <string name="expense_delete_title">حذف المصروف</string>
+    <string name="expense_delete_message">هل أنت متأكد من رغبتك في حذف هذا المصروف بقيمة %s؟</string>
+
+    <string name="expense_cat_all">الكل</string>
+    <string name="expense_cat_rent">الإيجار</string>
+    <string name="expense_cat_utilities">فواتير وخدمات</string>
+    <string name="expense_cat_salaries">الرواتب</string>
+    <string name="expense_cat_supplies">مستلزمات تشغيل</string>
+    <string name="expense_cat_maintenance">صيانة</string>
+    <string name="expense_cat_shipping">شحن وتوصيل</string>
+    <string name="expense_cat_marketing">تسويق وإعلانات</string>
+    <string name="expense_cat_other">أخرى</string>
+
+    <!-- Reports -->
+    <string name="reports_timeframe_today">اليوم</string>
+    <string name="reports_timeframe_7_days">آخر 7 أيام</string>
+    <string name="reports_timeframe_this_month">هذا الشهر</string>
+    <string name="reports_timeframe_all_time">كل الفترات</string>
+    <string name="reports_pl_statement">قائمة الأرباح والخسائر</string>
+    <string name="reports_gross_revenue">إجمالي إيرادات المبيعات</string>
+    <string name="reports_cogs">تكلفة البضاعة المباعة (COGS)</string>
+    <string name="reports_gross_profit">مجمل الربح</string>
+    <string name="reports_operating_expenses">إجمالي المصروفات التشغيلية</string>
+    <string name="reports_net_profit">صافي الربح التشغيلي</string>
+    <string name="reports_orders_count">عدد الطلبات / متوسط الفاتورة</string>
+    <string name="reports_orders_summary">%1$s مبيعات | المتوسط: %2$s</string>
+    <string name="reports_inventory_valuation">تقييم المخزون وهوامش الربح</string>
+    <string name="reports_total_inventory_cost">إجمالي تكلفة المخزون</string>
+    <string name="reports_expected_retail">القيمة البيعية المتوقعة</string>
+    <string name="reports_projected_margin">هامش الربح المتوقع</string>
+    <string name="reports_debt_position">موقف الديون والمستحقات</string>
+    <string name="reports_receivables_customers">مستحقات على العملاء</string>
+    <string name="reports_payables_suppliers">مستحقات للموردين</string>
+
+    <!-- Backup & Restore -->
+    <string name="backup_full_title">النسخ الاحتياطي والاستعادة الكاملة</string>
+    <string name="backup_full_desc">إنشاء نسخة احتياطية شاملة لجميع المنتجات والمبيعات والمشتريات وجهات الاتصال والإعدادات بتنسيق JSON القياسي.</string>
+    <string name="backup_export_json_btn">تصدير نسخة JSON احتياطية</string>
+    <string name="backup_restore_json_btn">استعادة من ملف JSON</string>
+    <string name="backup_csv_title">استيراد وتصدير بيانات CSV</string>
+    <string name="backup_csv_desc">تصدير جداول البيانات لفتحها في Excel أو Google Sheets، أو استيراد قائمة المنتجات دفعة واحدة.</string>
+    <string name="backup_export_products">تصدير المنتجات (CSV)</string>
+    <string name="backup_import_products">استيراد المنتجات (CSV)</string>
+    <string name="backup_export_customers">تصدير العملاء (CSV)</string>
+    <string name="backup_export_suppliers">تصدير الموردين (CSV)</string>
+    <string name="backup_export_expenses">تصدير المصروفات (CSV)</string>
+    <string name="backup_dialog_title">النسخ الاحتياطي والتصدير</string>
+    <string name="backup_success_json_export">تم حفظ نسخة JSON الاحتياطية بنجاح!</string>
+    <string name="backup_success_json_restore">تمت استعادة قاعدة البيانات بنجاح!</string>
+    <string name="backup_success_products_csv_export">تم تصدير ملف منتجات CSV بنجاح!</string>
+    <string name="backup_success_customers_csv_export">تم تصدير ملف عملاء CSV بنجاح!</string>
+    <string name="backup_success_suppliers_csv_export">تم تصدير ملف موردين CSV بنجاح!</string>
+    <string name="backup_success_expenses_csv_export">تم تصدير ملف مصروفات CSV بنجاح!</string>
+    <string name="backup_success_products_import">تم استيراد %d منتج بنجاح!</string>
+    <string name="backup_error_export">فشل التصدير: %s</string>
+    <string name="backup_error_restore">فشلت الاستعادة: %s</string>
+    <string name="backup_error_import">فشل الاستيراد: %s</string>
+
+    <!-- Common Dialogs -->
+    <string name="dialog_delete_title">تأكيد الحذف</string>
+    <string name="dialog_delete_message">هل أنت متأكد من رغبتك في حذف هذا العنصر؟ لا يمكن التراجع عن هذا الإجراء.</string>
+
+    <!-- Settings -->
+    <string name="settings_business_profile">بيانات النشاط التجاري والفوترة</string>
+    <string name="settings_business_profile_desc">تظهر هذه البيانات على فواتير PDF المطبوعة والمشاركة.</string>
+    <string name="settings_business_name">اسم المتجر / الشركة *</string>
+    <string name="settings_owner_name">اسم المالك / المدير</string>
+    <string name="settings_currency">العملة (مثال: USD, SAR, AED, EGP)</string>
+    <string name="settings_tax_rate">نسبة الضريبة الافتراضية (%)</string>
+    <string name="settings_invoice_prefix">بادئة رقم الفاتورة</string>
+    <string name="settings_tax_number">الرقم الضريبي</string>
+    <string name="settings_save_profile">حفظ بيانات النشاط</string>
+    <string name="settings_inventory_policy">سياسات المخزون والتشغيل</string>
+    <string name="settings_allow_negative_stock">السماح بالبيع عند نفاد المخزون</string>
+    <string name="settings_allow_negative_desc">السماح بإتمام عمليات البيع حتى لو كانت الكمية المسجلة 0 أو أقل.</string>
+    <string name="settings_appearance">المظهر واللغة</string>
+    <string name="settings_theme_mode">السمة والمظهر</string>
+    <string name="settings_theme_system">تلقائي</string>
+    <string name="settings_theme_light">فاتح</string>
+    <string name="settings_theme_dark">داكن</string>
+    <string name="settings_language">اللغة</string>
+    <string name="settings_language_title">لغة التطبيق</string>
+    <string name="settings_language_desc">التبديل بين العربية والإنجليزية. يتم ضبط اتجاه الواجهة فورياً.</string>
+    <string name="settings_lang_en">English</string>
+    <string name="settings_lang_en_sub">اتجاه الواجهة من اليسار لليمين (LTR)</string>
+    <string name="settings_lang_ar">العربية</string>
+    <string name="settings_lang_ar_sub">اتجاه الواجهة من اليمين لليسار (RTL)</string>
+    <string name="settings_lang_active">مفعلة</string>
+    <string name="settings_lang_saved_toast">تم تغيير لغة التطبيق إلى %s</string>
+    <string name="settings_about_title">عن تطبيق MERCURY</string>
+    <string name="settings_app_tagline">نظام ذكي وشامل لإدارة المبيعات والمخزون ونقاط البيع دون إنترنت</string>
+    <string name="settings_app_version">الإصدار 1.0.0 • جميع البيانات محفوظة محلياً على جهازك</string>
+    <string name="settings_brand_identity_title">الهوية البصرية والشعار</string>
+    <string name="settings_brand_variant_icon_dark">الأيقونة (داكن)</string>
+    <string name="settings_brand_variant_icon_light">الأيقونة (فاتح)</string>
+    <string name="settings_brand_variant_logo_dark">الشعار النصي (داكن)</string>
+    <string name="settings_brand_variant_logo_light">الشعار النصي (فاتح)</string>
+    <string name="settings_brand_concept">السرعة، التدفق، الذكاء والنمو المستمر</string>
+</resources>
